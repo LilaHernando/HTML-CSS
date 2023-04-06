@@ -1,0 +1,90 @@
+HTML (HyperText Markup Language) es un lenguaje de marcado que se utiliza para definir la estructura,
+el formato y el contenido de una página web. 
+Es utilizado en conjunto con otros lenguajes como CSS y JavaScript para crear páginas web dinámicas y atractivas.
+en este, se pueden trabajar elementos como texto, imágenes, enlaces, tablas, formularios, videos, audio y más.
+
+HTML utiliza etiquetas para definir la estructura y el contenido de la página.
+Las etiquetas pueden contener atributos que proporcionan información adicional sobre el elemento
+como su tamaño, color, estilo, ubicación, entre otros.
+Veamos la estructura básica de una etiqueta HTML:
+
+analizaremos el siguiente elemento:
+
+  ______________________ elemento _____________________
+ |                                                     |
+ <a href="http://paginaejemplo.com">Visitá la página</a>
+
+
+
+
+         ___________ etiqueta de apertura ___________
+        |                                            |
+        |       ____________ atributo _____________  |
+        |      |                                   | |                        
+        |      |  nombre del           valor del   | |    __ contenido __     etiqueta
+        |      |  atributo            atributo     | |   |               |    de cierre
+        |      |  |                       |        | |   |               |        |                         
+        <a      href=     "http://paginaejemplo.com">     Visitá la página      </a>
+        |                                                                          |           
+        |________________________________ elemento ________________________________|
+
+
+Es muy importante usar HTML semántico y no llenar todo de <div> 
+para que nuestro sitio sea mejor interpretado por el navegador y, por lo tanto, más accesible.
+Existen distintos grupos de etiquetas en HTML:
+
+                    Etiquetas de encabezado:
+        <head>, <title>, <meta>, <style>, <link>, entre otras. 
+
+Estas etiquetas se utilizan para incluir información sobre la página, como su título, descripción, hojas de estilo y enlaces a otros archivos.
+
+--------------------------------------------------------------------------------------------------------------       
+                 
+                    Etiquetas de estructura o contenedoras: 
+        <header>, <footer>, <nav>, <aside>, <main>, <section>, <article>, entre otras. 
+
+Estas etiquetas se utilizan para dividir la página en secciones y estructurar su contenido de manera semántica.
+Son contenedoras de otras etiquetas.
+
+--------------------------------------------------------------------------------------------------------------       
+
+                    Etiquetas de contenido:
+         <h1>, <p>, <a>, <img>, <ul> y <li>, <ol> y <li>, <form>, entre otras.
+
+Estas etiquetas se utilizan para definir el contenido principal de una página web.
+
+--------------------------------------------------------------------------------------------------------------       
+
+                    Etiquetas multimedia: 
+        <audio>, <video>, <source>, <track>, entre otras.
+
+Estas etiquetas se utilizan para incluir contenido multimedia en la página, como audio y video.
+
+--------------------------------------------------------------------------------------------------------------       
+
+                    Etiquetas de estilo: 
+            <div>, <span>, <br>, <hr>, entre otras. 
+            
+Estas etiquetas se utilizan para dar formato y estilo al contenido de la página.
+
+Lectura recomendada: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+|------------------------------------- DESAFÍO -------------------------------------|
+|                                                                                   |             
+|          Crear una pagina web con la siguiente estructura (lista anidada):        |
+|                                                                                   |
+|                          SOY LA LISTA DEL SUPER!                                  |
+|                                * Frutas                                           |
+|                                   1. Manzana                                      |
+|                                   2. Banana                                       |     
+|                                * Carnes                                           |
+|                                   1. Pollo                                        |
+|                                   2. Cerdo                                        |
+|                                * Verduras                                         |
+|                                   1. Limón                                        |
+|                                   2. Zanahoria                                    |
+|                                                                                   |
+|                                                                                   |
+|               A su vez, cada vez que hagas click en un alimento,                  |
+|       deberá redirigirte a algúna página que contenga recetas con ese alimento.   |
+|-----------------------------------------------------------------------------------|

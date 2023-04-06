@@ -1,0 +1,98 @@
+<!--  DOCTYPE => indica al cliente que trabajamos con HTML5 -->
+<!DOCTYPE html>
+
+<!--  html => etiqueta principal, donde almacenaremos todo nuestro html -->
+<!--  lleva un atributo lang="..."  que almacena el idioma de la página-->
+<html lang="es">
+  <!--  etiqueta head, almacena todo lo necesario para que el navegador cargue el proyecto -->
+  <!--  no es visible para el usuario final (dependencias, fuentes, librerías) -->
+  <head>
+    <!--  las etiquetas meta, proporcionan información adicional sobre una página web -->
+    <!-- ---------------------------------------------------------------------------- -->
+    <!-- meta charset => especificar la codificación de caracteres utilizada en el documento.
+         recibe un atributo charset="UTF-8" -->
+    <meta charset="UTF-8" />
+
+    <!-- meta description => describe en pocas líneas de que se trata la página.
+         recibe un atributo name="description" y un atributo content="..." -->
+    <meta name="description" content="Esta página mostrará gatitos" />
+
+    <!-- meta robot => permite que los crawler de los buscadores interfieran en el posicionamiento web.
+         recibe un atributo name="robot" y un atributo content="index,follow" -->
+    <meta name="robot" content="Esta página mostrará gatitos" />
+
+    <!-- titulo de la pestaña-->
+    <title>Mi página de gatitos</title>
+
+    <!-- meta viewport => controla el ancho de la página dependiendo del dispositivo en el que se encuentre el usuario.
+         recibe un atributo name="viewport" y un atributo content="width=device-width, initial-scale=1" -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- link stylesheet => incorpora la hoja de estilos al documento.
+    recibe un atributo rel="stylesheet" y un atributo href="..." que almacena el path de nuestros estilos -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <!--  body => almacena toda la información visual del proyecto en sí -->
+  <!--  es visible para el usuario final (fotos, texto, contenido) -->
+  <body>
+    <!-- header => etiqueta contenedora que almacena elementos como el logo de la
+    página o su nav o barra de navegación -->
+    <header>
+      <!-- nav => representa lo relacionado a la barra de navegación -->
+      <nav>
+        <!-- "..." -->
+      </nav>
+    </header>
+
+    <!--main => agrupa todo el contenido principal de la web, siempre debe estar por debajo del header
+    y por encima del footer. -->
+    <main>
+      <!-- section => se utiliza para agrupar y estructurar contenido relacionado en una página web. -->
+      <!-- suelen almacenar otras etiquetas como <article> -->
+      <section>
+        <!-- article => almacena contenido independiente, es decir, contenido relevante y completo
+          sin necesidad de agregar información adicional o externo para entender su significado. 
+          ejemplo: un articulo de un blog, una noticia en un diario -->
+        <article>
+          <!-- "..." -->
+        </article>
+      </section>
+      <!-- ul => genera una lista donde los elementos se listan con bullets ya que su orden no importa.
+     en caso de cambiar el orden de estos, el significado del documento no varía.
+     ejemplo: una lista de un super  -->
+      <ul>
+        <!-- li => etiqueta compañera de ul y ol, representa un elemento de la lista -->
+        <li>Manzanas</li>
+        <li>Bananas</li>
+      </ul>
+      <!-- ol => lista cuyos elementos estan intencionalmente ordenados por números
+      en caso de cambiar el orden de los mismos, cambiaría el significado del documento.
+      ejemplo: una lista de pasos a seguir -->
+      <ol>
+        <li>Primer paso</li>
+        <li>Segundo paso</li>
+      </ol>
+    </main>
+
+    <!-- footer => almacena el contenido relacionado con el pie de página tales como
+    información de contacto, derechos de autor, etc. -->
+    <footer>
+      <!-- algunas etiquetas de contenido (no contienen otras etiquetas en su interior) son: -->
+      <h1>Etiqueta h1</h1>
+      <h2>Etiqueta h2</h2>
+      <h3>Etiqueta h3</h3>
+      <h4>Etiqueta h4</h4>
+      <h5>Etiqueta h5</h5>
+      <h6>Etiqueta h6</h6>
+      <p>Etiqueta p</p>
+      <div>Etiqueta div</div>
+      <!-- a => crea enlaces. requiere un atributo obligatorio llamado "href" 
+      que especifica la dirección web a la que se debe redirigir  -->
+      <a
+        href="https://comunidad.retorn.com/wp-content/uploads/cache/2018/09/gatitos/3008811440.jpg"
+        >Etiqueta a</a
+      >
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+Etiqueta <form>
+
+En HTML, un formulario es un elemento que se utiliza para recopilar datos del usuario
+y enviarlos al servidor para su procesamiento. 
+Un formulario consta de uno o más elementos de entrada, como campos de texto,
+botones de opción, casillas de verificación, botones de radio y menús desplegables
+que permiten al usuario ingresar datos.
+
+form => Esta etiqueta avisa al browser que lo que sigue es un formulario.
+recibe un atributo "action" que especifica la URL a la que se enviarán los datos del formulario
+ejemplo: action="https://urlDeMentiritas.com"
+
+label => eltiqueta que representa cada uno de los campos del formulario, dentro de esta etiqueta
+se almacena un <input> y un <span> con un texto que describa ese campo.
+El atributo "for" se utiliza para asociar la etiqueta con un elemento de formulario.
+El valor de "for" debe coincidir con el valor del "id" del <input> correspondiente.
+
+input => Se utiliza para crear campos de entrada en un formulario.
+Esta etiqueta puede generar diferentes tipos de campos de entrada, como texto, botones,
+casillas de verificación, menús desplegables o fechas y hora, entre otros.
+
+Atributos de <input>:
+
+        * "type" se utiliza para especificar el tipo de campo de entrada que se debe generar.
+           Listado de tipos: https://www.w3schools.com/html/html_form_input_types.asp
+
+        * "id" se utiliza para identificar de manera única el campo de entrada. Siempre debe
+           coincidir con el atributo "for" de la etiqueta <label> que lo contiene.
+
+        * "name" se utiliza para asignar un nombre al campo de entrada,
+           que se utilizará para identificar el campo de entrada que se enviará al servidor.
+       
+        * "placeholder": descripción que aparece en el campo de ingreso mientras este esté vacío.
+        

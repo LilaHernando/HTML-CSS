@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <!-- figure => son utilizadas como contenedor para las etiquetas img. Trabaja en conjunto con 
+        figcaption -->
+        <figure>
+          <!-- img => etiqueta que almancena imagenes, tiene un atributo src="..." que recibe el path
+            donde se encuentra la imagen que queremos mostrar y un atributo alt="..." que recibe
+            una descripción de la imagen, este atributo mejora la accesibilidad. -->
+          <img
+            src="./pics/pexels-sergio-souza-3198000.jpg"
+            alt="Perritos con hueso"
+          />
+          <figcaption>Perritos con hueso</figcaption>
+        </figure>
+      </section>
+      <section>
+        <!-- video => almacena videos. 
+        Tiene un atributo de solo nombre controls que nos renderiza los
+        controladores de los videos y un atributo preload="auto" que es util para optimizar 
+        la carga del video -->
+        <video controls preload="auto">
+          <!-- El atributo src="..." será reemplazado por una etiqueta <source> entre medio de las dos
+          etiquetas (apertura y cierre) de video. -->
+
+          <!-- Esta etiqueta recibe el path del video pero además puede
+          recibir el minuto donde queremos que inicie y finalice el video la primera vez
+          que ponemos play.
+          
+          luego del path agregamos: #t=X,Y donde X hace referencia al
+          tiempo de inicio e Y al tiempo de finalización. -->
+          <source src="./video/coverr-a-black-labrador-5769-1080p.mp4#t=5,10" />
+          <!-- además, podemos poner el mismo video en múltiples extensiones, dando la posibilidad
+          al browser de elegir en caso que no trabaje con la extensión que se presenta primero. -->
+
+          <!-- solo es necesario agregar tantas etiquetas source como extensiones quiera poner. -->
+          <source src="./video/coverr-a-black-labrador-5769-1080p.m4v" />
+        </video>
+      </section>
+    </main>
+  </body>
+</html>

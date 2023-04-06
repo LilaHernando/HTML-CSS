@@ -1,0 +1,54 @@
+Etiqueta <img>
+Las imágenes se pueden almacenar y comprimir en diferentes formatos,
+y estos formatos pueden ser clasificados en dos categorías principales
+                    
+                         Lossy y Lossless:
+
+                                Lossy
+                        JPEG, JPG, SVG, WebP.
+
+Los formatos lossy comprimen los datos de la imagen eliminando algunos detalles innecesarios.
+Resulta en una imagen más pequeña y con  calidad ligeramente reducida a la original.
+Su principal beneficio es la optimización en la carga de la página
+al ser mas livanas esta se produce más rapidamente.
+
+                               Lossless
+                            PNG, GIF, BMP.
+                              
+Los formatos lossless conservan todos los detalles de la imagen original al comprimirla,
+lo que significa que la calidad de la imagen no cambia durante el proceso de compresión.
+Resulta en páginas que demoran un poco más en cargarse.
+
+
+           ________________________________________________________________________________
+          |  Formato  |  Categoría  |         Paleta         |             Uso             |
+          |--------------------------------------------------------------------------------|
+          |           |             |                        | Animaciones simples         |
+          |    GIF    |   Lossless  |    max 265 colores     | Gráficos con colores planos |
+          |           |             |                        |                             |
+          |--------------------------------------------------------------------------------|
+          |           |             |                        | Uso de transparencia        |
+          |   PNG 8   |   Lossless  |     max 265 colores    | Sin animación               |
+          |           |             |                        | Ideal para íconos           |
+          |--------------------------------------------------------------------------------|
+          |           |             |                        | Uso de transparencia        |
+          |   PNG 24  |   Lossless  |   Colores ilimitados   | Sin animación               |
+          |           |             |                        | Ideal para íconos           |
+          |--------------------------------------------------------------------------------|
+          |           |             |                        | Imágenes fijas              |
+          |    JPG    |    Lossy    |   Millones de colores  | Fotografía                  |
+          |           |             |                        |                             |
+          |--------------------------------------------------------------------------------|
+          |           |             |                        | Gráficos / logotipos web    |
+          |    SVG    |   Lossless  |   Colores ilimitados   | Retina / pantallas de       |
+          |           |             |                        | alta resolución             |
+          |___________|_____________|________________________|_____________________________|
+
+
+Las imagenes que se utilizan en las páginas deben pesar de 70 KB a máximo 100 KB,
+para eso tenemos dos herramientas:
+
+- Pexels: Banco de imagenes gratuito. 
+- Tiny PNG: Mejora el tamaño de tus imagenes.
+- Verexif: Retira metadatos de tus imágenes.
+- https://coverr.co/  => Banco de videos gratuito.
