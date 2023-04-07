@@ -1,0 +1,69 @@
+Listado de Opciones:
+
+Para crear inputs con una lista de opciones, se puede desarrollar de dos maneras diferentes: 
+
+OPCION 1 (RECOMENDADA CUANDO HAY MENOS DE 5 OPCIONES):
+
+Etiqueta <select>: Recibe una etiqueta <option> por cada una de las opciones de la lista.
+Nos devuelve un listado de opciones, pero debemos buscarlas con la barra de scroll dado que no podemos
+buscar ninguna de las opciones por nombre.
+
+OPCION 2 (RECOMENDADA CUANDO HAY MÁS DE 5 OPCIONES):
+
+Etiqueta <input type="list">: el tipo "list" nos permite utilizar una etiqueta <datalist> 
+con etiquetas <option> par cada una de las opciones.
+De este modo, el usuario puede escribir dentro del input, y filtrar los resultados de la lista.
+
+
+                        Estructuras de <select> e <input>
+                      -------------------------------------
+
+                            |       SELECT      |
+
+ ___________________________________________________________________________________
+|          identificación              identificación                               |
+|       dentro del código      dentro de la DB y/o Servidor                         |
+|                 |                   |                                             |
+|     <select    id=""              name="">                                        |
+|                                                                                   |
+|        <option     value="">           "...Contenido..."        </option>         |
+|                       |                        |                                  |
+|            nombre de la opción         Opción renderizada                         |
+|        dentro de la DB y/o Servidor                                               |
+|                                                                                   |
+|     </select>                                                                     |
+|-----------------------------------------------------------------------------------|
+|                                  Ejemplo:                                         |
+|                                                                                   |
+|              <select name="cursos" id="cursos">                                   |
+|                    <option value="JavaScript">JavaScript</option>                 |
+|              </select>                                                            |
+|___________________________________________________________________________________|
+
+
+
+                            |       INPUT      |
+
+ ___________________________________________________________________________________
+|            Concepto                  identificación                               |
+|           de la lista        dentro de la DB y/o Servidor                         |
+|                 |                   |                                             |
+|     <input    list=""              name="" />                                     |
+|                                                                                   |
+|               Mismo concepto de "list"                                            |
+|                         |                                                         |
+|     <datalist          id=""   >                                                  |
+|                                                                                   |
+|             <option     value=""  />                                              |
+|                            |                                                      |
+|                  Valor que se renderiza, no necesita contenido.                   |
+|                                                                                   |
+|     </datalist>                                                                   |
+|-----------------------------------------------------------------------------------|
+|                                  Ejemplo:                                         |
+|                                                                                   |
+|                     <input list="cursos" name="cursos">                           | 
+|                     <datalist id="cursos">                                        |
+|                          <option value="JavaScript"/>                             |
+|                     </datalist>                                                   |
+|___________________________________________________________________________________|
