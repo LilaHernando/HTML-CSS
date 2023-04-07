@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estilos</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <p>Soy el texto de mayor especificidad (!important)</p>
+
+      <p style="color: red; font-size: 35px">
+        Soy un texto con menor especificidad que el anterior (embebido)
+      </p>
+
+      <p id="id" style="font-size: 35px">
+        Soy un texto de menor especificidad que los dos anteriores (id)
+      </p>
+
+      <p id="id" class="clase">
+        Soy un texto de menor especificidad que los tres anteriores (clase)
+      </p>
+
+      <p>Soy el texto de menor especificidad (etiqueta)</p>
+    </main>
+  </body>
+</html>

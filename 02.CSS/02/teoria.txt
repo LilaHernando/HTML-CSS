@@ -1,0 +1,124 @@
+                                        Selectores
+
+Ahora bien, una vez que ya definimos de que manera vamos a insertar los estilos en el HTML,
+tenemos que definir de que manera vamos a seleccionar los elementos para darle estilos.
+Los selectores CSS se utilizan para seleccionar los elementos HTML a los que le daremos estilos. 
+
+                                    Selector de etiqueta
+                                
+            Se utiliza para seleccionar todos los elementos con el mismo nombre de etiqueta.
+                
+ _____________________________________________________________________________________________________
+|    Selector    |                    HTML                 |           CSS            | Especificidad |
+|________________|_________________________________________|__________________________|_______________|
+|                |                                         |    p {                   |               |
+|    Etiqueta    |            <p>Soy un texto</p>          |       color: red;        |       1       |
+|                |                                         |      }                   |               |
+|________________|_________________________________________|__________________________|_______________|
+|                |                                         |  .parrafo {              |               |
+|     Clase      |  <p class="parrafo">Soy un texto</p>    |       color: red;        |      10       | 
+|                |                                         |      }                   |               |
+|________________|_________________________________________|__________________________|_______________|
+|                |                                         |    #texto {              |               |
+|       ID       |     <p id="texto">Soy un texto</p>      |       color: red;        |      100      |
+|                |                                         |      }                   |               |
+|________________|_________________________________________|__________________________|_______________|
+
+
+                                                Especificidad
+
+CSS tiene un mecanismo complejo para decidir qué estilos deben tener prioridad por encima de otros.
+Es importante manejarlo para que nuestros estilos no se pisen y funcionen correctamente
+
+Como mostramos en el cuadro de arriba, cada selector tiene un puntaje. La prioridad de el estilo
+dependerá de cuantos y cuales selectores use ese estilo.
+
+                                                    Ejemplo: 
+
+            ______________________________________________________________________________
+            |    Selector   |      ID       |    Clases    |   Etiquetas   | Especificidad |
+            |_______________|_______________|______________|_______________|_______________|
+            |               |               |              |               |               |
+            |       p       |       0       |      0       |       1       |       1       |
+            |_______________|_______________|______________|_______________|_______________|
+            |               |               |              |               |               |
+            |  .contenido   |       0       |      1       |       0       |      10       |
+            |_______________|_______________|______________|_______________|_______________|
+            |               |               |              |               |               |
+            |    #header    |       1       |      0       |       0       |      100      |
+            |_______________|_______________|______________|_______________|_______________|
+            |               |               |              |               |               |
+            |     div p     |       0       |      0       |       2       |       2       |
+            |_______________|_______________|______________|_______________|_______________|
+            |               |               |              |               |               |
+            | .titulo.main  |       0       |      2       |       0       |      20       |
+            |_______________|_______________|______________|_______________|_______________|
+            |               |               |              |               |               |
+            |  #header img  |       1       |      0       |       1       |      101      |
+            |_______________|_______________|______________|_______________|_______________|
+
+ _____________________________________________________________________________________________________
+|                                                                                                     |
+|                                             Excepciones                                             |
+|                                                                                                     |
+| - Estilos embebidos o en línea: tienen prioridad sobre los estilos definidos en hoja de estilos.    |
+|                                                                                                     |
+| - Estilos con !important: tienen prioridad sobre todo lo demás.                                     |
+|                                                                                                     |
+|   Por esta razón casi nunca es recomendable usar estilos en línea ni !important,                    |
+|   ya que hacen que el código sea más difícil de entender y modificar.                               |
+|_____________________________________________________________________________________________________|
+
+
+                                        Explicación del Renderizado.
+
+Si abrimos el index.html en nuestro browser, renderizado todos nuestros textos con sus estilos.
+Vamos a analizarlo:
+_______________________________________________________________________________________________
+* Por qué todo el texto se ve azul, por más que mi clase ".clase" y mi id "#id" tengan otros colores
+adjudicados? es por el !important.
+
+p {
+  color: blue !important;  ----> este estilo será prioridad en todas las etiquetas <p>
+  color: red; ----> este queda anulado, ya que el !important tiene mayor especificidad.
+}
+
+#id {
+  color: red; ----> este queda anulado, ya que el !important tiene mayor especificidad.
+}
+
+.clase {
+  color: green; ----> este queda anulado, ya que el !important tiene mayor especificidad.
+}
+_______________________________________________________________________________________________
+* Por qué el segundo y el tercer texto tienen un tamaño mayor al resto?
+Porque tienen definido otro tamaño de manera embebida o inline, que tiene mayor especificidad.
+
+<p style="color: red; font-size: 35px">   --> color="red" queda cancelado por el !important.
+<p id="id" style="font-size: 35px">
+
+#id {
+  font-size: 30px; ---> queda cancelado por el inline
+}
+
+Al mismo tiempo, el texto 4 con clase ".clase" y id "#id" toma el tamaño del id ya que es
+de mayor especificidad que la clase.
+
+.clase {
+  font-size: 50px; ---> queda cancelado por #id
+}
+
+Los textos que no tienen size asociado, toman el de la etiqueta <p> que es el menos importante.
+_______________________________________________________________________________________________
+*Por qué todos tienen fondo rojo menos #id y .clase?
+
+El fondo rojo está definido en la etiqueta <p> que, como ya sabemos, es la de menor especificidad.
+El selector #id tiene definido un background-color: red; que tiene mayor especificidad que el definido
+en la etiqueta, por lo que tiene prioridad.
+
+p {
+  background-color: red; ---> queda cancelado por #id
+}
+.clase {
+  background-color: aqua; ---> queda cancelado por #id
+}

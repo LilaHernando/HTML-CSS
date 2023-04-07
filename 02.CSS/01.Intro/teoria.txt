@@ -1,0 +1,28 @@
+CSS (Cascading Style Sheets) es un lenguaje de programación utilizado
+para dar estilo y diseño a páginas web. 
+Es util para definir el color, la tipografía, el diseño de página, animaciones
+y otros aspectos visuales de un sitio web.
+
+Existen tres maneras principales de agregar estilos con CSS.
+
+                                    Etiqueta <link>
+
+Es la mejor práctica. Como vimos previamente en HTML, se ingresa en el <head> una etiqueta <link>
+que recibe el path donde se encuentra nuestro archivo de estilos. De esta manera los estilos quedan
+en un archivo completamente separado del HTML, lo que resulta en un código más limpio.
+
+
+                                    Etiqueta <style>
+
+La etiqueta style se agrega dentro del head del HTML y dentro de esta ya se definen los estilos.
+Si bien no es una muy buena practica, dado que en caso de haber muchos estilos se generaría un código
+muy extenso, cuando solo es necesario aplicar muy poquitos estilos, esta etiqueta suele usarse.
+Igualmente, sigue siendo recomendable utilizar la etiqueta <link>
+
+                                   Atributo style="..."
+
+A este tipo de estilos se le llama "estilo embebido". Hace referencia a inyectar el estilo directamente
+en el elemento HTML como un atributo.
+Si bien funciona, no es una buena práctica incluir estilos CSS de este modo por lo que hay que evitarlo
+tanto como sea posible, ya que puede dificultar la mantenibilidad y la escalabilidad del código.
+
