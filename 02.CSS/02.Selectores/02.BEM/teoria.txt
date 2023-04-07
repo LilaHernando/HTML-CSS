@@ -1,0 +1,32 @@
+BEM (Block Element Modifier) es una metodología de nomenclatura de clases CSS
+que se utiliza para crear un código CSS más escalable y reutilizable. 
+La idea detrás de BEM es dividir una página web en bloques, elementos y modificadores, 
+lo que facilita la escritura de CSS y el mantenimiento del código.
+
+ _________________________________________________________________________________________________________
+|                                              Bloque.                                                    |
+|                                                                                                         |
+|   Representa un componente independiente de la UI, como un encabezado, un menú o una lista de productos.|
+|   Los bloques se identifican mediante un nombre único que describe la función del componente.           |
+|   El nombre del bloque se utiliza como prefijo para todas las clases relacionadas con ese bloque.       |
+|                                  Ejemplo: nav (barra de navegación)                                     |
+|_________________________________________________________________________________________________________|   
+|                                             Elemento.                                                   |
+|                                                                                                         |
+|   Parte de un bloque que tiene una función específica y no puede existir sin el bloque.                 |
+|   Los elementos se identifican mediante un guión bajo después del nombre del bloque,                    |
+|   seguido de un nombre descriptivo para este elemento.                                                  |
+|                          Ejemplo: item (item de una barra de navegación)                                |                                               
+|_________________________________________________________________________________________________________|   
+|                                            Modificador.                                                 |
+|                                                                                                         | 
+|   Variación o estado diferente de un bloque o elemento.                                                 |
+|   Los modificadores se identifican mediante un guión doble después del nombre del bloque o elemento,    |
+|   seguido de un nombre descriptivo para esa modificación.                                               |
+|                     Ejemplo: big (tamaño de un item de una barra de navegación)                         |
+|_________________________________________________________________________________________________________|
+
+                                                Ejemplo: 
+                                
+                                    .bloque__elemento--modificador
+                                            .nav__item--big

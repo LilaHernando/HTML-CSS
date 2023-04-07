@@ -1,9 +1,6 @@
-CSS (Cascading Style Sheets) es un lenguaje de programación utilizado
-para dar estilo y diseño a páginas web. 
-Es util para definir el color, la tipografía, el diseño de página, animaciones
-y otros aspectos visuales de un sitio web.
-
-Existen tres maneras principales de agregar estilos con CSS.
+Ahora que ya sabemos lo que son las propiedades, es preciso saber cómo le pasamos estas
+propiedades a cada uno de nuestros elementos HTML.
+Existen tres maneras principales de pasarle propiedades a los elementos.
 
                                     Etiqueta <link>
 

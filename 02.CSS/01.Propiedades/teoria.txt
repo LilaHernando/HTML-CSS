@@ -1,0 +1,13 @@
+CSS (Cascading Style Sheets) es un lenguaje de programación utilizado
+para dar estilo y diseño a páginas web. 
+Es util para definir el color, la tipografía, el diseño de página, animaciones
+y otros aspectos visuales de un sitio web.
+
+                                    Propiedades
+
+Las propiedades CSS son valores que se utilizan para controlar y personalizar
+el estilo de elementos HTML en una página web.
+Cada propiedad CSS se utiliza para establecer un aspecto específico de un elemento,
+como su tamaño, color, posición, margen, borde, fondo, etc.
+
+Listado de propiedades: https://www.w3schools.com/cssref/index.php

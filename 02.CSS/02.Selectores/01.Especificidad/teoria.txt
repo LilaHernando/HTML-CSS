@@ -1,13 +1,27 @@
-                                        Selectores
+                                           Selectores
 
 Ahora bien, una vez que ya definimos de que manera vamos a insertar los estilos en el HTML,
-tenemos que definir de que manera vamos a seleccionar los elementos para darle estilos.
+tenemos que definir cómo vamos a seleccionar los elementos para darle estilos.
 Los selectores CSS se utilizan para seleccionar los elementos HTML a los que le daremos estilos. 
+             Listado de selectores: https://www.w3schools.com/cssref/css_selectors.php
 
-                                    Selector de etiqueta
-                                
-            Se utiliza para seleccionar todos los elementos con el mismo nombre de etiqueta.
-                
+                                       Selectores básicos  
+
+Selector de Etiqueta: En nuestra hoja de estilos, escribimos el nombre de la etiqueta que queremos
+estilar, seguida de los corchetes que contendrán las propiedades CSS. 
+No hace falta modificar nada en el HTML.
+
+Selector de Clase: En nuestra hoja de estilos, escribimos el nombre de la clase que queremos crear
+anteponiendo un punto a ese nombre, seguido de los corchetes que contienen las propiedades CSS.
+En el HTML agregamos el atributo class="..." con el nombre de la clase que acabamos de crear (sin .)
+a la etiqueta que queremos estilar.
+
+Selector de ID: En nuestra hoja de estilos, escribimos el nombre del ID que queremos crear
+anteponiendo un numeral a ese nombre, seguido de los corchetes que contienen las propiedades CSS.
+En el HTML agregamos el atributo id="..." con el nombre del ID que acabamos de crear (sin #)
+a la etiqueta que queremos estilar.
+
+
  _____________________________________________________________________________________________________
 |    Selector    |                    HTML                 |           CSS            | Especificidad |
 |________________|_________________________________________|__________________________|_______________|
@@ -25,7 +39,7 @@ Los selectores CSS se utilizan para seleccionar los elementos HTML a los que le 
 |________________|_________________________________________|__________________________|_______________|
 
 
-                                                Especificidad
+                                         Especificidad
 
 CSS tiene un mecanismo complejo para decidir qué estilos deben tener prioridad por encima de otros.
 Es importante manejarlo para que nuestros estilos no se pisen y funcionen correctamente
@@ -33,33 +47,33 @@ Es importante manejarlo para que nuestros estilos no se pisen y funcionen correc
 Como mostramos en el cuadro de arriba, cada selector tiene un puntaje. La prioridad de el estilo
 dependerá de cuantos y cuales selectores use ese estilo.
 
-                                                    Ejemplo: 
+                                            Ejemplo: 
 
-            ______________________________________________________________________________
-            |    Selector   |      ID       |    Clases    |   Etiquetas   | Especificidad |
-            |_______________|_______________|______________|_______________|_______________|
-            |               |               |              |               |               |
-            |       p       |       0       |      0       |       1       |       1       |
-            |_______________|_______________|______________|_______________|_______________|
-            |               |               |              |               |               |
-            |  .contenido   |       0       |      1       |       0       |      10       |
-            |_______________|_______________|______________|_______________|_______________|
-            |               |               |              |               |               |
-            |    #header    |       1       |      0       |       0       |      100      |
-            |_______________|_______________|______________|_______________|_______________|
-            |               |               |              |               |               |
-            |     div p     |       0       |      0       |       2       |       2       |
-            |_______________|_______________|______________|_______________|_______________|
-            |               |               |              |               |               |
-            | .titulo.main  |       0       |      2       |       0       |      20       |
-            |_______________|_______________|______________|_______________|_______________|
-            |               |               |              |               |               |
-            |  #header img  |       1       |      0       |       1       |      101      |
-            |_______________|_______________|______________|_______________|_______________|
+         ______________________________________________________________________________
+        |    Selector   |      ID       |    Clases    |   Etiquetas   | Especificidad |
+        |_______________|_______________|______________|_______________|_______________|
+        |               |               |              |               |               |
+        |       p       |       0       |      0       |       1       |       1       |
+        |_______________|_______________|______________|_______________|_______________|
+        |               |               |              |               |               |
+        |  .contenido   |       0       |      1       |       0       |      10       |
+        |_______________|_______________|______________|_______________|_______________|
+        |               |               |              |               |               |
+        |    #header    |       1       |      0       |       0       |      100      |
+        |_______________|_______________|______________|_______________|_______________|
+        |               |               |              |               |               |
+        |     div p     |       0       |      0       |       2       |       2       |
+        |_______________|_______________|______________|_______________|_______________|
+        |               |               |              |               |               |
+        | .titulo.main  |       0       |      2       |       0       |      20       |
+        |_______________|_______________|______________|_______________|_______________|
+        |               |               |              |               |               |
+        |  #header img  |       1       |      0       |       1       |      101      |
+        |_______________|_______________|______________|_______________|_______________|
 
  _____________________________________________________________________________________________________
 |                                                                                                     |
-|                                             Excepciones                                             |
+|                                          Excepciones                                                |
 |                                                                                                     |
 | - Estilos embebidos o en línea: tienen prioridad sobre los estilos definidos en hoja de estilos.    |
 |                                                                                                     |
@@ -70,7 +84,7 @@ dependerá de cuantos y cuales selectores use ese estilo.
 |_____________________________________________________________________________________________________|
 
 
-                                        Explicación del Renderizado.
+                                   Explicación del Renderizado.
 
 Si abrimos el index.html en nuestro browser, renderizado todos nuestros textos con sus estilos.
 Vamos a analizarlo:
