@@ -1,8 +1,11 @@
+Ya sabemos que la manera correcta de estilar mi página web es mediante la creación de una
+hoja de estilos, donde detallaremos todas las propiedades de cada elemento.
+
+Ahora bien, ¿Cómo "llamo" a cada elemento en mi hoja de estilos para pasarle las propiedades?
+
                                            Selectores
 
-Ahora bien, una vez que ya definimos de que manera vamos a insertar los estilos en el HTML,
-tenemos que definir cómo vamos a seleccionar los elementos para darle estilos.
-Los selectores CSS se utilizan para seleccionar los elementos HTML a los que le daremos estilos. 
+Los selectores CSS se utilizan para seleccionar los elementos HTML a los que le daremos estilos.
              Listado de selectores: https://www.w3schools.com/cssref/css_selectors.php
 
                                        Selectores básicos  
@@ -23,7 +26,8 @@ a la etiqueta que queremos estilar.
 
 
  _____________________________________________________________________________________________________
-|    Selector    |                    HTML                 |           CSS            | Especificidad |
+|                |                    HTML                 |           CSS            |               |
+|    Selector    |                (index.html)             |       (styles.css)       | Especificidad |
 |________________|_________________________________________|__________________________|_______________|
 |                |                                         |    p {                   |               |
 |    Etiqueta    |            <p>Soy un texto</p>          |       color: red;        |       1       |

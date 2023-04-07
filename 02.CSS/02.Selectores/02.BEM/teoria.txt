@@ -1,4 +1,8 @@
-BEM (Block Element Modifier) es una metodología de nomenclatura de clases CSS
+Vimos que el código CSS es muy propenso a la sobrescripción si no entendemos muy bien cómo 
+funciona la pirámide de especificidad o prioridad. Para facilitarnos esto, existen varios 
+métodos. Hoy veremos uno de los más recomendables: BEM (Block Element Modifier).
+
+BEM es una metodología de nomenclatura de clases CSS
 que se utiliza para crear un código CSS más escalable y reutilizable. 
 La idea detrás de BEM es dividir una página web en bloques, elementos y modificadores, 
 lo que facilita la escritura de CSS y el mantenimiento del código.
