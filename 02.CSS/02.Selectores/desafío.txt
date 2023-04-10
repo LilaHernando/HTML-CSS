@@ -1,0 +1,4 @@
+Ahora que ya sabés un poco sobre CSS, regresá al desafio que se encuentra en 
+01.HTML/01.Etiquetas/z.desafío.html
+
+Agregale estilos sumándole colores, multimedia y todo lo que quieras!

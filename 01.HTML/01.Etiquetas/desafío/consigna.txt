@@ -1,0 +1,19 @@
+ _____________________________________ DESAFÍO _____________________________________
+|                                                                                   |             
+|          Crear una pagina web con la siguiente estructura (lista anidada):        |
+|                                                                                   |
+|                          SOY LA LISTA DEL SUPER!                                  |
+|                                * Frutas                                           |
+|                                   1. Manzana                                      |
+|                                   2. Banana                                       |     
+|                                * Carnes                                           |
+|                                   1. Pollo                                        |
+|                                   2. Cerdo                                        |
+|                                * Verduras                                         |
+|                                   1. Limón                                        |
+|                                   2. Zanahoria                                    |
+|                                                                                   |
+|                                                                                   |
+|               A su vez, cada vez que hagas click en un alimento,                  |
+|       deberá redirigirte a algúna página que contenga recetas con ese alimento.   |
+|___________________________________________________________________________________|
