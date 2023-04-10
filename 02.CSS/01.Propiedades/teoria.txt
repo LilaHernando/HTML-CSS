@@ -11,3 +11,16 @@ Cada propiedad CSS se utiliza para establecer un aspecto específico de un eleme
 como su tamaño, color, posición, margen, borde, fondo, etc.
 
 Listado de propiedades: https://www.w3schools.com/cssref/index.php
+
+                            Anatomía de una regla CSS
+                     _______________________________________
+                    |    selector                           |
+                    |       |                               |
+                    |      p   {                            |   
+                    |          propiedad   valor            |
+                    |              |         |              |
+                    |            color:     red;            |
+                    |           |_______________|           |
+                    |              declaración              |
+                    |        }                              |
+                    |_______________________________________|

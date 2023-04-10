@@ -1,0 +1,14 @@
+/* es recomendable que el selector * esté presente en todas tus hojas de estilo.
+tal cual se define acá. */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  height: 500px;
+  border: 10px solid grey;
+  padding-left: 20px 35px;
+}
