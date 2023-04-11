@@ -87,13 +87,30 @@ dependerá de cuantos y cuales selectores use ese estilo.
 |   ya que hacen que el código sea más difícil de entender y modificar.                               |
 |_____________________________________________________________________________________________________|
 
+                               Pseudo-clases y Pseudo-elementos
+
+                                        Pseudo-clases
+                                    :hover, :active, :focus
+
+Las pseudo-clases son palabras clave que se colocan después de un selector.
+Permiten estilar un elemento en función del estado del elemento seleccionado.
+Por ejemplo, :hover selecciona el elemento solo cuando el cursor pasa sobre él.
+
+                                        Pseudo-elementos
+                                ::after, ::before, ::first-letter
+                      
+Los pseudo-elementos también son palabras clave que se colocan después de un selector.
+Permiten añadir estilos a una parte concreta del documento.
+Por ejemplo, ::first-line selecciona solo la primera línea del elemento especificado.
+
+_______________________________________________________________________________________________
 
                                    Explicación del Renderizado.
 
 Si abrimos el index.html en nuestro browser, renderizado todos nuestros textos con sus estilos.
 Vamos a analizarlo:
-_______________________________________________________________________________________________
-* Por qué todo el texto se ve azul, por más que mi clase ".clase" y mi id "#id" tengan otros colores
+
+--> Por qué todo el texto se ve azul, por más que mi clase ".clase" y mi id "#id" tengan otros colores
 adjudicados? es por el !important.
 
 p {
@@ -108,8 +125,9 @@ p {
 .clase {
   color: green; ----> este queda anulado, ya que el !important tiene mayor especificidad.
 }
-_______________________________________________________________________________________________
-* Por qué el segundo y el tercer texto tienen un tamaño mayor al resto?
+
+
+--> Por qué el segundo y el tercer texto tienen un tamaño mayor al resto? 
 Porque tienen definido otro tamaño de manera embebida o inline, que tiene mayor especificidad.
 
 <p style="color: red; font-size: 35px">   --> color="red" queda cancelado por el !important.
@@ -127,8 +145,9 @@ de mayor especificidad que la clase.
 }
 
 Los textos que no tienen size asociado, toman el de la etiqueta <p> que es el menos importante.
-_______________________________________________________________________________________________
-*Por qué todos tienen fondo rojo menos #id y .clase?
+
+
+--> Por qué todos tienen fondo rojo menos #id y .clase? 
 
 El fondo rojo está definido en la etiqueta <p> que, como ya sabemos, es la de menor especificidad.
 El selector #id tiene definido un background-color: red; que tiene mayor especificidad que el definido

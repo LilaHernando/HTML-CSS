@@ -1,0 +1,20 @@
+.color {
+  color: violet;
+}
+
+.background {
+  background-color: yellow;
+}
+
+.size {
+  font-size: 30px;
+}
+
+.padding-border {
+  background-color: violet;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 100px;
+  font-size: 30px;
+  text-align: center;
+}

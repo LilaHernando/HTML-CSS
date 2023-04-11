@@ -1,5 +1,8 @@
 /* es recomendable que el selector * esté presente en todas tus hojas de estilo.
-tal cual se define acá. */
+tal cual se define acá.
+
+Probá comentar y descomentar el código de línea 6 a 10 para ver la diferencia.
+*/
 * {
   box-sizing: border-box;
   padding: 0;

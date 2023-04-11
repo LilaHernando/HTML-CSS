@@ -1,0 +1,29 @@
+Unidades CSS:
+
+Las unidades CSS son unidades utilizadas para definir el tamaño y posición de los elementos.
+Existen varias unidades de medida que se pueden utilizar para definir tamaños y posiciones de elementos en una página web. 
+Estas unidades se pueden clasificar en dos tipos principales: 
+
+ _________________________________________________________________________________________________________
+|                                         Unidades absolutas.                                             |
+|                                                                                                         |
+| Las unidades absolutas son unidades de medida que no cambian de tamaño en función del dispositivo       |
+| o pantalla en el que se visualiza la página web.                                                        |
+| Estas unidades son:                                                                                     |                                                                                                       |
+|                         * centímetros (cm)                                                              |
+|                         * milímetros (mm)                                                               |
+|                         * pulgadas (in) 1 pulgada = 2.54 cm                                             |
+|                         * píxeles (px)  1 píxel = 1/96 de pulgada                                       |
+|                                                                                                         |
+|_________________________________________________________________________________________________________|
+|                                         Unidades relativas.                                             |
+|                                                                                                         |
+| Las unidades relativas son unidades de medida dependen de algún otro valor o contexto, como pueden ser  |
+| el tamaño de la pantalla o del elemento padre en el que se utilizan.                                    |
+| Estas unidades son:                                                                                     |                                                                                                       |
+|                         * porcentaje (%): representa un % del valor del elemento padre                  |
+|                         * viewport width (vw): representa un porcentaje del ancho del viewport          |
+|                         * viewport height (vw): representa un porcentaje del alto del viewport          |
+|                         * em: representa el valor del tamaño de fuente del elemento padre               |
+|                         * rem: representa el valor del tamaño de fuente del elemento raíz (html)        |                                                                                                         |
+|_________________________________________________________________________________________________________| 
