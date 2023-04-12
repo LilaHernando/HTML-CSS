@@ -1,0 +1,29 @@
+Display configura el comportamento o ubicación en pantalla de un elemento con respecto a los demás elementos.
+Los elementos CSS se clasifican principalmente en tres categorías:
+            
+             ____________________________________________________________________________________________________
+            |                                     elementos de línea:                                            |
+            |                   a, span, label, strong, br, input, font, select, etc.                            |
+            |                                                                                                    |
+            | Son apilables entre sí, no tienen margin-top ni margin-bottom (por más que lo agregues en CSS)     |
+            | tampoco respetan width ni height, estas medidas dependen del tamaño en px de su contenido.         |
+            |                                                                                                    |
+            |____________________________________________________________________________________________________|
+
+             ____________________________________________________________________________________________________
+            |                                     elementos de bloque                                            |
+            |                   div, p, h(1,2,3,4,5 y 6), hr, ol, ul, li, address, etc.                          |
+            |                                                                                                    |
+            | Ocupan todo el ancho disponible en su contenedor, forzando un salto de línea.                      |
+            | Respetan en margin-top, margin-bottom, width y height definidos por el desarrollador.              |
+            |                                                                                                    |
+            |____________________________________________________________________________________________________|
+
+             ____________________________________________________________________________________________________
+            |                                    elementos inlile-block:                                         |
+            |                                              img.                                                  |
+            |                                                                                                    |
+            | Son una combinación entre los elementos en linea y los elementos de bloque.                        |
+            | Se muestran en la misma línea, respetando margin-top, margin-bottom, width y height definidos.     |
+            |                                                                                                    |
+            |____________________________________________________________________________________________________|

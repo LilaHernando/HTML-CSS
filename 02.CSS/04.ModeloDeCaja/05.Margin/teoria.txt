@@ -1,0 +1,26 @@
+El margin es una propiedad que controla el espacio entre los elementos. Define la distancia entre los bordes externos
+de cada elemento.
+
+margin: puede recibir 1, 2 o 4 valores (no puede recibir 3)
+             ____________________________________________________________________________________________________
+            | margin: 10px; --> Los cuatro lados tendrán un margin de 10px                                       |
+            |____________________________________________________________________________________________________|
+            | margin: 10px 20px --> el lado superior e inferior tendrán 10px                                     |
+            | mientras que el derecho y el izquierdo tendrán 20px                                                |
+            |____________________________________________________________________________________________________|
+            | margin: 10px 20px 30px 40px --> el lado superior tendrá 10px el derecho 20px                       |
+            | el inferior 30px  y el izquierdo 40px                                                              |
+            |____________________________________________________________________________________________________|
+
+margin-"side": "side" hace referencia al lado que queremos modificar (top, bottom, right, left)
+                 Controla individualmente cada lado mediante un solo parámetro.
+             ____________________________________________________________________________________________________
+            | margin-top: 10px --> El lado superior tendrá 10px de margin                                        |
+            |____________________________________________________________________________________________________|
+            | margin-right: 10px --> El lado derecho tendrá 10px de margin                                       |
+            |____________________________________________________________________________________________________|
+            | margin-bottom: 10px --> El lado inferior tendrá 10px de margin                                     |
+            |____________________________________________________________________________________________________|
+            | margin-left: 10px --> El lado izquierdo tendrá 10px de margin                                      |
+            |____________________________________________________________________________________________________|
+

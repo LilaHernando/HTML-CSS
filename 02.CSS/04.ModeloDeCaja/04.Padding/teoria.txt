@@ -1,0 +1,26 @@
+El padding controla el espacio que existe entre la caja del contenido (texto, img, etc) y el border.
+los atributos que controlan el padding son:
+
+padding: puede recibir 1, 2 o 4 valores (no puede recibir 3)
+             ____________________________________________________________________________________________________
+            | padding: 20px; --> Los cuatro lados tendrán un padding de 20px                                     |
+            |____________________________________________________________________________________________________|
+            | padding: 50px 20px --> el lado superior e inferior tendrán 50px                                    |
+            | mientras que el derecho y el izquierdo tendrán 20px                                                |
+            |____________________________________________________________________________________________________|
+            | padding: 100px 80px 60px 40px --> el lado superior tendrá 100px el derecho 80px                    |
+            | el inferior 60px  y el izquierdo 40px                                                              |
+            |____________________________________________________________________________________________________|
+
+padding-"side": "side" hace referencia al lado que queremos modificar (top, bottom, right, left)
+                 Controla individualmente cada lado mediante un solo parámetro.
+             ____________________________________________________________________________________________________
+            | padding-top: 10px --> El lado superior tendrá 10px de padding                                      |
+            |____________________________________________________________________________________________________|
+            | padding-right: 10px --> El lado derecho tendrá 10px de padding                                     |
+            |____________________________________________________________________________________________________|
+            | padding-bottom: 10px --> El lado inferior tendrá 10px de padding                                   |
+            |____________________________________________________________________________________________________|
+            | padding-left: 10px --> El lado izquierdo tendrá 10px de padding                                    |
+            |____________________________________________________________________________________________________|
+

@@ -1,12 +1,13 @@
+El tamaño representa las medidas que ocupara el contenido del elemento en nuestra página sin contar padding, border o margin.
 Existen varias propiedades en CSS que se pueden utilizar para controlar el tamaño de un elemento:
 
-* height: Controla la altura de un elemento sin contar padding, border o margin.
+* height: Controla la altura de un elemento.
 
 * min-height & max-height: Controlan la altura mínima y máxima de un elemento. Es útil cuando en height tenemos un valor relativo
 como puede ser porcentaje, ya que si no definimos un alto mínimo y máximo, al cambiar el valor de height el elemento puede quedar
 muy pequeño o muy grande.
 
-* width: Controla el ancho de un elemento sin contar padding, border o margin.
+* width: Controla el ancho de un elemento.
 
 * min-width & max-width: Controlan la anchura mínima y máxima de un elemento. Es útil cuando en width tenemos un valor relativo
 como puede ser porcentaje, ya que si no definimos un ancho mínimo y máximo, al cambiar el valor de width el elemento puede quedar

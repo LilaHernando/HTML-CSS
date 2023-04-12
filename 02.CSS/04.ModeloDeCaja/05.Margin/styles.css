@@ -1,0 +1,74 @@
+.elemento1 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 200px;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 10px;
+  /* Nuevo código */
+  margin: 50px;
+}
+
+.elemento2 {
+  background-color: rgb(194, 122, 194);
+  height: 150px;
+  width: 200px;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 10px;
+  /* Nuevo código */
+  margin: 50px 20px;
+}
+
+.elemento3 {
+  background-color: rgb(162, 80, 162);
+  height: 150px;
+  width: 200px;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 10px;
+  /* Nuevo código */
+  margin: 100px 80px 60px 40px;
+}
+
+.elemento4 {
+  background-color: rgb(147, 0, 147);
+  height: 150px;
+  width: 150px;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 10px;
+  /* Nuevo código */
+  margin-top: 50px;
+}
+
+.elemento5 {
+  background-color: rgb(147, 0, 147);
+  height: 150px;
+  width: 150px;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 10px;
+  /* Nuevo código */
+  margin-bottom: 50px;
+}
+.elemento6 {
+  background-color: rgb(147, 0, 147);
+  height: 150px;
+  width: 150px;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 10px;
+  /* Nuevo código */
+  margin-right: 50px;
+}
+.elemento7 {
+  background-color: rgb(147, 0, 147);
+  height: 150px;
+  width: 150px;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 10px;
+  /* Nuevo código */
+  margin-left: 50px;
+}

@@ -1,0 +1,38 @@
+La propiedad "border" en CSS se utiliza para definir los bordes de un elemento HTML
+Esta propiedad tiene varias subpropiedades que permiten controlar diferentes aspectos del borde,
+como el estilo, el ancho y el color.
+
+Algunas de las subpropiedades más utilizadas:
+ 
+ Para que los siguientes 3 atributos funcionen correctamente, necesitan ser utilizados en conjunto 
+ para definir el estilo completo del borde de un elemento HTML:
+
+* border-width, border-style, border-color.
+             ______________________________________________________________________
+            | * border-width: grosor del borde.                                    |
+            | * border-style: estilo del borde como punteado, a rayas, solid.     |
+            | * border-color: color del borde.                                     |
+            |______________________________________________________________________|
+
+Otra manera de hacerlo es pasarle todos los valores a la propiedad border de la siguiente manera:
+             ______________________________________________________________________
+            | * border: 1px solid red;                                             |
+            |______________________________________________________________________|
+
+
+ * border-radius: permite definir esquinas redondeadas. Recibe hasta 4 valores. Veamos ejemplos:
+             ____________________________________________________________________________________________________
+            | border-radius: 10px; --> Las cuatro esquinas tienen un radio de 10 px                              |
+            |____________________________________________________________________________________________________|
+            | border-radius: 10px 50px; --> El radio de las esquinas superior izquierdo e inferior derecho       |
+            | es de 10 pixeles y el de las esquinas superior derecha e inferior izquierda es de 50 px            |
+            |____________________________________________________________________________________________________|
+            | border-radius: 10px 40px 80px --> El radio de la esquina superior izquierda será de 10 pixeles,    |
+            | el de la esquina superior derecha e inferior izquierda será 40px                                   |
+            | y la equina inferior derecha tendrá un radio de 80px                                               |
+            |____________________________________________________________________________________________________|
+            | border-radius: 10px 40px 60px 100px; --> Esquina superior izquierda 10px,                          |
+            | esquina superior derecha 40px, esquina inferior derecha 60px e inferior izquierda 100px            |
+            |____________________________________________________________________________________________________|
+
+También pueden hacerse por separado con border-top-radius, border-right-radius, etc.

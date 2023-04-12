@@ -1,0 +1,46 @@
+/* Las medidas del elemento con la clase "padre" serán: */
+.elemento1 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 150px;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 10px;
+  /* Nuevo código */
+  border: 25px solid rgb(194, 122, 194);
+}
+
+.elemento2 {
+  background-color: rgb(194, 122, 194);
+  height: 150px;
+  width: 150px;
+  min-height: 100px;
+  min-width: 100px;
+  border-style: groove;
+  border-radius: 10px 50px;
+  /* Nuevo código */
+  border-width: 25px;
+  border-color: rgb(162, 80, 162);
+}
+
+.elemento3 {
+  background-color: rgb(162, 80, 162);
+  height: 150px;
+  width: 150px;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 10px 40px 80px;
+  /* Nuevo código */
+  border-top: 25px solid rgb(147, 0, 147);
+}
+
+.elemento4 {
+  background-color: rgb(147, 0, 147);
+  height: 150px;
+  width: 150px;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 10px 40px 60px 100px;
+  /* Nuevo código */
+  border-bottom: 25px solid rgb(78, 3, 78);
+}
