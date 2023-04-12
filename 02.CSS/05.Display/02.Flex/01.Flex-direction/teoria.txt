@@ -1,0 +1,36 @@
+Flex Box (Flexible Box Layout) es un modelo de diseño que nos permite crear elementos flexibles y responsivos,
+ubicando de forma mas eficiente los elementos en un contenedor.
+El contenedor padre modifica disposición, la altura y la anchura de sus hijos para aprovechar el espacio al máximo.
+
+Para utilizar el modelo Flex Box es necesario aplicar propiedades tanto al contenedor padre como a sus hijos.
+El elemento padre (contenedor de otros elementos) tiene que tener la propiedad display: flex; configurada.
+
+Eso nos habilita ciertas propiedades para sus hijos que nos permiten modificar su posición, alineación, entre otros.
+La primera propiedad que veremos es:
+             ____________________________________________________________________________________________________
+            |                                        flex-direction:                                             |
+            | Controla la alineación del elemento flex.                                                          |
+            | Recibe un solo valor, estos pueden ser:                                                            |
+            |                                                                                                    |
+            | row: los elementos con esta direción se dispondrán de manera horizontal.                           |
+            |                                                                                                    |
+            | column: los elementos con esta dirección se dispondrán de manera vertical.                         |
+            |                                                                                                    |
+            | row-reverse: los elementos con esta direción se dispondrán de manera horizontal pero el último     |
+            | elemento del contenedor será el primero en renderizarse.                                           |
+            |                                                                                                    |
+            | column-reverse: los elementos con esta direción se dispondrán de manera vertical pero el último    |  
+            | elemento del contenedor será el primero en renderizarse.                                           |                                                                                             |
+            |____________________________________________________________________________________________________|
+
+
+
+* justify-content: Controla la alineación horizontal de los elementos flex dentro del contenedor.
+
+* align-items: Controla la alineación vertical de los elementos flex dentro del contenedor.
+
+* flex-wrap: Controla si los elementos flex se ajustan en una sola línea o se van a la siguiente línea cuando no hay suficiente espacio.
+
+* flex-grow y flex-shrink: Controlan cómo los elementos flex crecen o se reducen en tamaño para adaptarse al espacio disponible.
+
+* flex-basis: Define el tamaño inicial de los elementos flex antes de que se distribuyan el espacio disponible.

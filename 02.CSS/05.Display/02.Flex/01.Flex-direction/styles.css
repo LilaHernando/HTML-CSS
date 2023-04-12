@@ -1,0 +1,72 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+.padre1 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 50px;
+  color: white;
+  /* Nuevo código */
+  display: flex;
+  flex-direction: row;
+}
+
+/* ---------------------------------------------------- */
+.padre2 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 50px;
+  /* Nuevo código */
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* ---------------------------------------------------- */
+
+.padre3 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 50px;
+  /* Nuevo código */
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------------------------------------------------- */
+
+.padre4 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 50px;
+  /* Nuevo código */
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* ---------------------------------------------------- */
+
+.A {
+  background-color: rgb(156, 90, 156);
+  height: 30%;
+  width: 30%;
+  margin: 10%;
+  border-radius: 10px;
+  color: white;
+}
+.B {
+  background-color: rgb(116, 217, 228);
+  height: 30%;
+  width: 30%;
+  margin: 10%;
+  border-radius: 10px;
+  color: white;
+}

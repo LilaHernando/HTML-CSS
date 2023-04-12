@@ -1,0 +1,32 @@
+
+             ____________________________________________________________________________________________________
+            |                                        justify-content:                                            |
+            | Esta propiedad define cómo se distribuyen los elementos flex a lo largo del eje definido en        |
+            | flex-direction, si flex-direction: row; entonces justify-content controla el eje horizontal        |
+            | Recibe un solo valor, estos pueden ser:                                                            |
+            |                                                                                                    |
+            | flex-start: Los elementos se alinean en el comienzo del contenedor.                                |
+            |                                                                                                    |
+            | flex-end: Los elementos se alinean en el final del contenedor.                                     |
+            |                                                                                                    |
+            | center: Los elementos se alinean en el centro del contenedor.                                      |
+            |                                                                                                    |
+            | space-between: El primer elemento se coloca al principio del contenedor y el ultimo al final,      |
+            | pero entre elemento y elemento existe una misma distancia.                                         |
+            |                                                                                                    |
+            | space-around: Entre elemento y elemento existe una misma distancia,                                |
+            | pero los elementos de los extremos (primer y último) tienen una distancia del borde igual          |
+            | a la mitad de la distancia entre los elementos.                                                    |
+            |                                                                                                    |
+            | space-evenly: los elementos con esta direción se dispondrán de manera horizontal pero el último    |  
+            | elemento del contenedor será el primero en renderizarse.                                           |                                                                                             |
+            |____________________________________________________________________________________________________|
+
+
+* align-items: Controla la alineación vertical de los elementos flex dentro del contenedor.
+
+* flex-wrap: Controla si los elementos flex se ajustan en una sola línea o se van a la siguiente línea cuando no hay suficiente espacio.
+
+* flex-grow y flex-shrink: Controlan cómo los elementos flex crecen o se reducen en tamaño para adaptarse al espacio disponible.
+
+* flex-basis: Define el tamaño inicial de los elementos flex antes de que se distribuyan el espacio disponible.

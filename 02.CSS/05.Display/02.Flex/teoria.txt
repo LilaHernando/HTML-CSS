@@ -1,8 +1,0 @@
-Flex Box (Flexible Box Layout) es un modelo de diseño que nos permite crear elementos flexibles y responsivos,
-ubicando de forma mas eficiente los elementos en un contenedor.
-El contenedor padre modifica disposición, la altura y la anchura de sus hijos para aprovechar el espacio al máximo.
-
-Para utilizar el modelo Flex Box es necesario aplicar propiedades tanto al contenedor padre como a sus hijos.
-El elemento padre (contenedor de otros elementos) tiene que tener la propiedad display: flex;
-
-eso nos habilita ciertas propiedades para sus hijos que nos permiten modificar su posición, alineación, entre otros. 

@@ -1,0 +1,94 @@
+.padre1 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  /* Nuevo código */
+  align-items: center;
+}
+
+/* ---------------------------------------------------- */
+
+.padre2 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* Nuevo código */
+  align-items: center;
+}
+
+/* ---------------------------------------------------- */
+
+.padre3 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 50px;
+  color: white;
+  display: flex;
+  /* Nuevo código */
+  justify-content: center;
+}
+/* ---------------------------------------------------- */
+
+.padre4 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  /* Nuevo código */
+  justify-content: space-between;
+}
+/* ---------------------------------------------------- */
+.padre5 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  /* Nuevo código */
+  justify-content: space-around;
+}
+/* ---------------------------------------------------- */
+.padre6 {
+  background-color: rgb(248, 182, 248);
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  /* Nuevo código */
+  justify-content: space-evenly;
+}
+/* ---------------------------------------------------- */
+.A {
+  background-color: rgb(161, 93, 161);
+  height: 15%;
+  width: 15%;
+  border-radius: 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
