@@ -2,7 +2,7 @@ Display configura el comportamento o ubicación en pantalla de un elemento con r
 Los elementos CSS se clasifican principalmente en tres categorías:
             
              ____________________________________________________________________________________________________
-            |                                     elementos de línea:                                            |
+            |                                       elementos inline:                                            |
             |                   a, span, label, strong, br, input, font, select, etc.                            |
             |                                                                                                    |
             | Son apilables entre sí, no tienen margin-top ni margin-bottom (por más que lo agregues en CSS)     |
@@ -11,7 +11,7 @@ Los elementos CSS se clasifican principalmente en tres categorías:
             |____________________________________________________________________________________________________|
 
              ____________________________________________________________________________________________________
-            |                                     elementos de bloque                                            |
+            |                                       elementos block                                              |
             |                   div, p, h(1,2,3,4,5 y 6), hr, ol, ul, li, address, etc.                          |
             |                                                                                                    |
             | Ocupan todo el ancho disponible en su contenedor, forzando un salto de línea.                      |
@@ -27,3 +27,4 @@ Los elementos CSS se clasifican principalmente en tres categorías:
             | Se muestran en la misma línea, respetando margin-top, margin-bottom, width y height definidos.     |
             |                                                                                                    |
             |____________________________________________________________________________________________________|
+
