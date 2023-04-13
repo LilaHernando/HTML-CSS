@@ -6,11 +6,9 @@
   margin: 50px;
   color: white;
   display: flex;
-  flex-direction: row; /* flex-direction por defecto*/
   /* Nuevo código */
-  align-items: flex-start;
+  flex-wrap: nowrap; /* valor por defecto */
 }
-
 /* ---------------------------------------------------- */
 
 .padre2 {
@@ -22,9 +20,8 @@
   color: white;
   display: flex;
   /* Nuevo código */
-  align-items: center;
+  flex-wrap: wrap;
 }
-
 /* ---------------------------------------------------- */
 
 .padre3 {
@@ -36,32 +33,19 @@
   color: white;
   display: flex;
   /* Nuevo código */
-  align-items: flex-end;
-}
-/* ---------------------------------------------------- */
-
-.padre4 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  color: white;
-  display: flex;
-  /* Nuevo código */
-  align-items: baseline;
+  flex-wrap: wrap-reverse;
 }
 
 /* ---------------------------------------------------- */
 .A {
   background-color: rgb(161, 93, 161);
-  height: 15%;
-  width: 15%;
+  max-height: 50px;
+  min-width: 50px;
   border-radius: 10px;
 }
 
 section {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  flex-direction: row;
 }

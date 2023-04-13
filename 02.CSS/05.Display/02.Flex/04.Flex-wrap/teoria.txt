@@ -1,0 +1,15 @@
+
+             ____________________________________________________________________________________________________
+            |                                           flex-wrap:                                               |
+            | Esta propiedad controla cómo los elementos se acomodan en un contenedor flex cuando no tienen      |
+            | suficiente espacio horizontal disponible como para colocarse en una sola fila.                     |
+            | Recibe un solo valor, estos pueden ser:                                                            |
+            |                                                                                                    |
+            | nowrap: Valor por defecto, los elementos se ajustan a una sola línea, pudiendo generar desbordes.  |
+            |                                                                                                    |
+            | wrap: Los elementos se alinean en una nueva línea cuando no hay suficiente espacio horizontal.     |
+            |                                                                                                    |
+            | wrap-reverse: Los elementos se envuelven a una nueva línea cuando no hay suficiente espacio        |
+            | pero estos se acomodan de abajo hacia arriba en el contenedor.                                     |
+            |____________________________________________________________________________________________________|
+
