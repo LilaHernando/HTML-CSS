@@ -1,4 +1,4 @@
-.padre1 {
+.padre {
   background-color: rgb(248, 182, 248);
   height: 150px;
   width: 150px;
@@ -6,48 +6,29 @@
   margin: 50px;
   color: white;
   display: flex;
-  flex-direction: row; /* flex-direction por defecto*/
+}
+
+.p1 {
   /* Nuevo código */
   align-items: flex-start;
 }
 
 /* ---------------------------------------------------- */
 
-.padre2 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  color: white;
-  display: flex;
+.p2 {
   /* Nuevo código */
   align-items: center;
 }
 
 /* ---------------------------------------------------- */
 
-.padre3 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  color: white;
-  display: flex;
+.p3 {
   /* Nuevo código */
   align-items: flex-end;
 }
 /* ---------------------------------------------------- */
 
-.padre4 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  color: white;
-  display: flex;
+.p4 {
   /* Nuevo código */
   align-items: baseline;
 }

@@ -1,0 +1,54 @@
+.padre1 {
+  background-color: rgb(182, 240, 248);
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+  margin: 50px;
+  color: white;
+  display: flex;
+}
+
+.BASE {
+  background-color: rgb(20, 232, 224);
+  max-height: 100px;
+  min-width: 30px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/*----------------------------------------------*/
+
+.A {
+  flex-basis: 20%;
+  flex-grow: 4;
+}
+
+.B {
+  flex-basis: 20%;
+  flex-grow: 1;
+}
+
+/*----------------------------------------------*/
+
+.C {
+  flex-basis: 50%;
+  flex-shrink: 1;
+}
+
+.D {
+  flex-basis: 50%;
+  flex-shrink: 3;
+}
+
+.E {
+  flex-basis: 50%;
+  flex-shrink: 5;
+}
+
+/*----------------------------------------------*/
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}

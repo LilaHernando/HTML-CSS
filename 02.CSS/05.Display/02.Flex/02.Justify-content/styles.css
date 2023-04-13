@@ -1,4 +1,4 @@
-.padre1 {
+.padre {
   background-color: rgb(248, 182, 248);
   height: 150px;
   width: 150px;
@@ -6,74 +6,40 @@
   margin: 50px;
   color: white;
   display: flex;
+  flex-direction: row;
+}
+
+.p1 {
   /* Nuevo código */
   justify-content: flex-start;
 }
 
 /* ---------------------------------------------------- */
 
-.padre2 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  color: white;
-  display: flex;
+.p2 {
   /* Nuevo código */
   justify-content: flex-end;
 }
 
 /* ---------------------------------------------------- */
 
-.padre3 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  color: white;
-  display: flex;
+.p3 {
   /* Nuevo código */
   justify-content: center;
 }
 /* ---------------------------------------------------- */
 
-.padre4 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  color: white;
-  display: flex;
-  flex-direction: row;
+.p4 {
   /* Nuevo código */
   justify-content: space-between;
 }
 /* ---------------------------------------------------- */
-.padre5 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  color: white;
-  display: flex;
-  flex-direction: row;
+.p5 {
   /* Nuevo código */
   justify-content: space-around;
 }
 /* ---------------------------------------------------- */
-.padre6 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  color: white;
-  display: flex;
-  flex-direction: row;
+.p6 {
   /* Nuevo código */
   justify-content: space-evenly;
 }

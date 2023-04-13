@@ -1,0 +1,20 @@
+
+             ____________________________________________________________________________________________________
+            |                             flex-basis, flex-grow y flex-shrink:                                   |
+            | Controlan cómo los elementos flex crecen (flex-grow) o se achican (flex-shrink) para adaptarse     |
+            | al espacio disponible partiendo de una medida base (flex-basis).                                   |
+            | Reciben como único valor una unidad que puede ser relativa o absoluta.                             |
+            |                                                                                                    |
+            | Por ejemplo, definimos dos elementos con flex-basis: 20%; (su tamaño es el 20% del elemento padre) |
+            |                                                                                                    |
+            | El elemento A tiene flex-grow: 1; el elemento B tiene flex-grow: 2;                                |                                                                                                   |
+            | El elemento B crecerá el doble que el elemento A cuando haya suficiente espacio en el contenedor.  |
+            | Quedando el elemento A con un tamaño del 40% (+20%) y el B con un tamaño del 60% (+40%)            |
+            |____________________________________________________________________________________________________|
+            | Ahora definimos dos elementos con flex-basis: 60%; (su tamaño es el 60% del elemento padre)        |
+            |                                                                                                    |
+            | El elemento A tiene flex-shrink: 1; el elemento B tiene flex-shrink: 3;                            |                                                                                                   |
+            | El elemento B se achicará el triple que el elemento A cuando no haya suficiente espacio.           |
+            | Quedando el elemento A con un tamaño del 55% (-5%) y el B con un tamaño del 45% (-15 %)            |
+            |____________________________________________________________________________________________________|
+

@@ -2,71 +2,50 @@ main {
   display: flex;
   flex-direction: row;
 }
-.padre1 {
+
+.padre {
   background-color: rgb(248, 182, 248);
   height: 150px;
   width: 150px;
   border-radius: 10px;
   margin: 50px;
-  color: white;
   /* Nuevo código */
   display: flex;
+}
+
+.p1 {
   flex-direction: row;
 }
 
 /* ---------------------------------------------------- */
-.padre2 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  /* Nuevo código */
-  display: flex;
+.p2 {
   flex-direction: row-reverse;
 }
 
 /* ---------------------------------------------------- */
 
-.padre3 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  /* Nuevo código */
-  display: flex;
+.p3 {
   flex-direction: column;
 }
 
 /* ---------------------------------------------------- */
 
-.padre4 {
-  background-color: rgb(248, 182, 248);
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
-  margin: 50px;
-  /* Nuevo código */
-  display: flex;
+.p4 {
   flex-direction: column-reverse;
 }
 
 /* ---------------------------------------------------- */
+.BASE {
+  height: 30%;
+  width: 30%;
+  margin: 10%;
+  border-radius: 10px;
+}
 
 .A {
   background-color: rgb(156, 90, 156);
-  height: 30%;
-  width: 30%;
-  margin: 10%;
-  border-radius: 10px;
-  color: white;
 }
+
 .B {
   background-color: rgb(116, 217, 228);
-  height: 30%;
-  width: 30%;
-  margin: 10%;
-  border-radius: 10px;
-  color: white;
 }
