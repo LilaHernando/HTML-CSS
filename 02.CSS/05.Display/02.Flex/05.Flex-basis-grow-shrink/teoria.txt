@@ -1,3 +1,4 @@
+A diferencia de las propiedades anteriores que se aplican a los contenedores padre, estas se aplican a los hijos.
 
              ____________________________________________________________________________________________________
             |                             flex-basis, flex-grow y flex-shrink:                                   |
