@@ -1,0 +1,53 @@
+El flujo normal (normal flow) en HTML es el orden natural en el que los elementos aparecen en pantalla, es decir, 
+los elementos aparecerán colocados tal como estén ordenados en el código HTML.
+
+La propiedad position indica que el elemento ha salido de su flujo normal y especifica 
+el tipo de posicionamiento que tendrá ahora ese elemento en relación a su padre.
+
+Position puede recibir 5 valores: static, relative, absolute, fixed, sticky.
+Dependiendo de que valor (de los anteriores 5) tenga position, trabajará en conjunto con las propiedades:
+
+'top', 'bottom', 'right' y 'left':  indican cuanto debe desplazarse el elemento en esa dirección.
+Reciben como valor unidades (tanto absolutas como relativas)
+
+z-indez: Cuando dos o mas elementos se superponen, podemos decidir cual aparece por delante.
+Recibe un valor entero (positivo o negativo) donde el valor más alto estará por delante del valor menor.
+
+             ____________________________________________________________________________________________________
+            |                                         position: static                                           |
+            |                                                                                                    |
+            | Es el posicionamiento por default de todos los elementos.                                          |                                                                                                   
+            | El elemento se coloca acorde al flujo normal del documento (normal flow) y no puede modificarse    |
+            | con las propiedades 'top', 'bottom', 'right', 'left' o 'z-index'.                                  |
+            |____________________________________________________________________________________________________|
+
+             ____________________________________________________________________________________________________
+            |                                        position: relative                                          |
+            |                                                                                                    |
+            | El elemento se coloca relativo flujo normal del documento (normal flow) pero se puede modificar    |
+            | su posicion mediante las propiedades 'top', 'bottom', 'right', 'left' o 'z-index'                  |
+            | donde el valor 0 para cada una de estas propiedades, refiere a la posición actual.                 |
+            | Ejemplo: right: 3px; el elemento se va a mover 3px a la derecha.                                   |
+            |____________________________________________________________________________________________________|
+
+             ____________________________________________________________________________________________________
+            |                                        position: absolute                                          |
+            |                                                                                                    |
+            | El elemento se coloca respecto a su contenedor posicionado más cercano.                            |
+            |                           (posicionado: con "position" distinta a static)                          |
+            | Si ninguno de sus ancestros está posicionado, el elemento "absolute" se posiciona en relación al   | 
+            | borde del elemento más cercano.                                                                    |
+            | Los elementos definidos como "absolute" se eliminan del normal flow, perdiendo valor en el eje Z   |
+            | por lo que puede superponerse a otros elementos.                                                   |
+            |                                                                                                    |
+            | Es posible modificar su posicion mediante las propiedades ya vistas.                               |
+            | Ejemplo: si quiero que hijos de un elemento tengan position absolute con respecto a él, necesito   |
+            | definir position: relative a dicho padre.                                                          |
+            |____________________________________________________________________________________________________|
+
+             ____________________________________________________________________________________________________
+            |                                         position: fixed                                            |
+            |                                                                                                    |
+            | El elemento se coloca respecto al viewport, por lo tanto si hacemos scroll el elemento se moverá.  |
+            | Es posible modificar su posicion mediante las propiedades ya vistas.                               |
+            |____________________________________________________________________________________________________|

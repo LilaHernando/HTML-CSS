@@ -1,0 +1,119 @@
+main {
+  height: 100rem;
+}
+section {
+  height: 30rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padre {
+  height: 20rem;
+  width: 20rem;
+  min-width: 15rem;
+  display: flex;
+  margin: 1rem;
+
+  background-color: #fac9dc;
+  border-radius: 1rem;
+}
+
+.hijo {
+  height: 5rem;
+  width: 5rem;
+  padding: 1rem;
+  margin: 1rem;
+
+  background-color: #a9a4c8;
+  border-radius: 1rem;
+}
+/* ------------------------------------------------- */
+
+.static {
+  right: 0; /* no funciona ya que 'static' no toma estos valores*/
+  left: 4; /* no funciona ya que 'static' no toma estos valores*/
+  bottom: 0; /* no funciona ya que 'static' no toma estos valores*/
+  top: 4; /* no funciona ya que 'static' no toma estos valores*/
+}
+/* ------------------------------------------------- */
+
+.relative {
+  position: relative;
+  top: 5rem;
+  left: 5rem;
+}
+/* ------------------------------------------------- */
+
+.Prelative {
+  position: relative;
+}
+
+.absolute1 {
+  background-color: #a5e2e8;
+
+  position: absolute;
+  left: 1rem;
+  z-index: 3;
+}
+
+.absolute2 {
+  background-color: #fec198;
+
+  position: absolute;
+  left: 3rem;
+  z-index: 2;
+}
+
+.absolute3 {
+  background-color: #d5edb9;
+
+  position: absolute;
+  left: 5rem;
+  z-index: 1;
+}
+
+/* ------------------------------------------------- */
+
+.Pfixed {
+  height: 50%;
+  width: 100%;
+
+  background-color: #f9f48d;
+
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: -1;
+}
+
+.Hfixed {
+  width: 90rem;
+  height: 25rem;
+
+  background-color: #80e30f;
+}
+
+/* -------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+------------------------------------------------- */

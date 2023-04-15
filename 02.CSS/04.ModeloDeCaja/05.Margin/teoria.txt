@@ -2,6 +2,8 @@ El margin es una propiedad que controla el espacio entre los elementos. Define l
 de cada elemento.
 
 margin: puede recibir 1, 2 o 4 valores (no puede recibir 3)
+también puede recibir un valor "auto" donde el navegador calcula automáticamente
+el margen izquierdo y derecho del elemento de manera que se centre horizontalmente dentro de su contenedor.
              ____________________________________________________________________________________________________
             | margin: 10px; --> Los cuatro lados tendrán un margin de 10px                                       |
             |____________________________________________________________________________________________________|
@@ -23,4 +25,3 @@ margin-"side": "side" hace referencia al lado que queremos modificar (top, botto
             |____________________________________________________________________________________________________|
             | margin-left: 10px --> El lado izquierdo tendrá 10px de margin                                      |
             |____________________________________________________________________________________________________|
-
