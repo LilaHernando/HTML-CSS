@@ -51,4 +51,16 @@ para eso tenemos dos herramientas:
 - Pexels: Banco de imagenes gratuito. 
 - Tiny PNG: Mejora el tamaño de tus imagenes.
 - Verexif: Retira metadatos de tus imágenes.
+
+Etiqueta <video>
+
+Se utiliza para agregar un video en una página web.
+Se define mediante la etiqueta <video> y se utiliza junto con otras etiquetas y atributos
+para configurar la apariencia y el comportamiento del video.
+
+Esta etiqueta es util para agregar videos que tenemos descargados localmente.
+Lo ideal es trabajar con formatos de video populares (mp4, webm, ogg) para prevenir errores de lectura 
+y si es posible, agregar más de una opción de formato. 
+
+
 - https://coverr.co/  => Banco de videos gratuito.

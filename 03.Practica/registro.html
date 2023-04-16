@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Esta es la descripción de mi página web"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles/resets.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/registro.css" />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700"
+      rel="stylesheet"
+    />
+    <title>Practica HTML y css</title>
+  </head>
+  <body>
+    <header>
+      <a href="" class="logo"><img src="./multimedia/img/Logo.png" /></a>
+      <nav>
+        <a id="ultimos"><span>Últimos artículos</span></a>
+        <a><span>Popular</span></a>
+        <a><span>Tecnología</span></a>
+      </nav>
+      <div class="opciones">
+        <img id="search" src="./multimedia/img/Search.png" />
+        <img id="user" src="./multimedia/img/User.png" />
+        <!-- <div class="userMenu">
+          <a href="">Login</a>
+          <a href="">Registro</a>
+        </div> -->
+      </div>
+    </header>
+    <main>
+      <section>
+        <h1>Formulario de registro</h1>
+        <form>
+          <div class="field">
+            <label>Nombre</label>
+            <input type="text" name="nombre" autocomplete="on" required />
+          </div>
+
+          <div class="field">
+            <label>Apellido</label>
+            <input type="text" name="apellido" autocomplete="on" required />
+          </div>
+
+          <div class="field">
+            <label for="estado">Estado Laboral</label>
+            <select name="estados" id="estados">
+              <!-- seleccionado por default -->
+              <option selected disabled>Seleccione un valor</option>
+              <!-- seleccionado por default -->
+
+              <option value="empleado">Empleado</option>
+              <option value="desempleado">Desempleado</option>
+              <option value="freelance">Freelance</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>E-mail</label>
+            <input type="email" name="email" autocomplete="on" required />
+          </div>
+
+          <div class="field">
+            <label>Contraseña</label>
+            <input type="password" name="contraseña" placeholder="********" required />
+          </div>
+
+          <div class="field">
+            <label>Telefono</label>
+            <input
+              type="number"
+              name="telefono"
+              placeholder="11 1 (111) 1111111"
+              required
+            />
+          </div>
+
+          <div class="textbox">
+            <label>Otros datos</label>
+            <textarea/></textarea>
+          </div>
+
+          <div class="gustos">
+            <label>¿Quieres recibir información relacionada con tus gustos?
+            </label>
+          <div><input type="radio" value="si" name="gustos" required />Si</div>
+        <div><input type="radio" value="no" name="gustos" required />No</div>
+          </div>
+     
+          <div class="privacidad">
+            <label>He leído y acepto la política de privacidad</label>
+            <input type="checkbox" required />
+          </div>
+          
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

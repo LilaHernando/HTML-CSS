@@ -6,3 +6,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+ol {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style: none;
+}

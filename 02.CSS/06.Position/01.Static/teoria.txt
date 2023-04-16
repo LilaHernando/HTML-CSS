@@ -51,3 +51,13 @@ Recibe un valor entero (positivo o negativo) donde el valor más alto estará po
             | El elemento se coloca respecto al viewport, por lo tanto si hacemos scroll el elemento se moverá.  |
             | Es posible modificar su posicion mediante las propiedades ya vistas.                               |
             |____________________________________________________________________________________________________|
+
+             ____________________________________________________________________________________________________
+            |                                        position: relative                                          |
+            |                                                                                                    |
+            | El elemento se posiciona "relative" hasta que alcanza un límite establecido.                       |
+            | Después de este límite, el elemento se posiciona como  "fixed".                                    |
+            | Es necesario establecer al menos una de las propiedades 'top', 'bottom', 'right' o 'left', donde   |
+            | esa propiedad marcará en que momento el elemento pasa a ser "fixed".                               |
+            | Dato: internet explorer no soporta "sticky" y safari tiene una sintaxis especial.                  |
+            |____________________________________________________________________________________________________|
